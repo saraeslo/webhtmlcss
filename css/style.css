@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    background-image: url(https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/151/posts/34339/image/5-free-template.jpg) ;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(255, 0, 157);
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+   
+}
+#contenido {
+    width: 78%;
+    float: left;
+    padding: 0px;
+    margin: 0px 100px;
+}
+footer {
+    background-color: rgb(226, 134, 230);
+    color: rgb(100, 12, 56);
+    font-family: cursive;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:5px;
+    margin-top:2px;
+
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 50, 122);
+    background-color: rgb(130, 204, 127);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(233, 27, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home {
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    color: rgb(36, 60, 201);
+}
+.etiqueta{
+    font-size: 30px;
+    color:rgb(255, 81, 81);
+}
+.text-derecha {
+    text-align: right;
+}
+#tablas table{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+
+}
+#tdefault th{
+    background-color: rgb(15, 15, 107);
+    color:cyan; 
+    font-size: 26px;
+}
+#tdefault td{
+    background-color: cyan;
+    color:rgb(15, 15, 107); 
+    font-size: 20px;
+}
+#tcombi th{
+    background-color: rgb(27, 126, 14);
+    color:rgb(255, 251, 0); 
+    font-size: 26px;
+}
+#tcombi td{
+    background-color: rgb(255, 251, 0);
+    color:rgb(27, 126, 14); 
+    font-size: 20px;
+}
+#tParImpar tr:nth-child(odd) td{
+    background-color: rgb(240, 240, 171);
+}
+#tParImpar tr:nth-child(even) td{
+    background-color: rgb(219, 164, 219);
+}
+#tParImpar th{
+    background-color: rgb(73, 5, 50);
+    color:rgb(201, 201, 105); 
+    font-size: 26px;
+}
+#thorario table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+}
+#thorario table, #thorario th, #thorario td{
+    border: solid 1px rgb(71,69,69);
+}
+#thorario th{
+    color: #12887A
+}
+.curso{
+    font-size: 25px;
+    color:#116974; 
+}
+.fol{
+    background-color:#FFD231;
+}
+.sisi{
+    background-color:#C9A0C8 ;
+}
+.ende{
+    background-color:#7F81BA;
+}
+.bdd{
+    background-color:#81FE86 ;
+}
+.ing{
+    background-color:#EFF0C8 ;
+}
+.prog{
+    background-color:#95DD94 ;
+}
+.lmsg{
+    background-color:#FE8081 ;
+}
+.recreo{
+    color: #38717A;
+    font-size:21px;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-type: disc;
+}
+#customd li li li {
+    list-style-type: circle;
+}
+#customo li{
+    list-style-type:lower-alpha ;
+}
+#customo li li{
+    list-style-image: url(../img/corazon16.png);
+}
+#customo li li li {
+    list-style-image: none;
+    list-style-type: upper-roman;
+}
+dt{
+    color: blue;
+    font-size: 20px;
+}
+
+#registro fieldset{
+    width: 40%;
+    background-color:rgb(162, 218, 205);
+}
+#grande fieldset{
+    width: 60%;
+    background-color:rgb(209, 230, 193);
+}
+#aficiones legend{
+  color: #b62485;
+  font-size: 20px;
+}
+#sexo legend{
+    color: #fc0101;
+    font-size: 20px;
+}
+#video{
+    background-color: #e6a4c2;
+    text-align: center;
+}
+#audio{
+    text-align: left;
+}
+#formuhtml5{
+    font-size: medium;
+    font-weight: bolder;
+    font-family: sans-serif;
+}

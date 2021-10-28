@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formu.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="titulo">Tablas</h1>
+                    <p>Las tablas se diseñan utilizando las etiquetas <span class="etiqueta">table</span>, <span
+                            class="etiqueta">tr</span>, <span class="etiqueta">th</span> y <span
+                            class="etiqueta">td</span></p>
+                    <h2 class="titulo">Tabla default</h2>
+                    <div id="tdefault">
+                        <table border="1" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Abrir</td>
+                                    <td>Copiar</td>
+                                    <td>Ventana</td>
+                                    <td>Acerca de</td>
+                                </tr>
+                                <tr>
+                                    <td>Guardar</td>
+                                    <td>Pegar</td>
+                                    <td>Full Screen</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 class="titulo">Tabla con combinaciones de celda</h2>
+                    <div id="tcombi">
+                        <table border="1" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Abrir</td>
+                                    <td>Copiar</td>
+                                    <td>Ventana</td>
+                                    <td>Acerca de</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Pegar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 class="titulo">Tabla con diferente diseño en filas pares e impares</h2>
+                    <div id="tParImpar">
+                        <table border="1" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Editar</th>
+                                    <th>Ver</th>
+                                    <th>Ayuda</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Abrir</td>
+                                    <td>Copiar</td>
+                                    <td>Ventana</td>
+                                    <td>Acerca de</td>
+                                </tr>
+                                <tr>
+                                    <td>Guardar</td>
+                                    <td>Pegar</td>
+                                    <td>Full Screen</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 class="titulo">Horario</h2>
+                    <div id="thorario">
+                        <table border="1" class="table">
+                            <thead>
+                                <tr>
+                                    <th class="curso" colspan="6">S1DAW</th>
+                                </tr>
+                                <tr>
+                                    <th>Hora</th>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miercoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>8:15 </br> 9:10</th>
+                                    <td class="fol"> FOL </br> Prud.Ga, Es </br> (1 B-301) </br> FOL</td>
+                                    <td class="ende">ENDE </br> Polo Or, Ed </br> (1 B-301) </br> ENDE</td>
+                                    <td class="bdd" rowspan="2">BDD </br> Bern. Be, Cr </br> (1 B-301) </br> BDD</td>
+                                    <td class="ing">ING </br> Guti Sa, JoÁn </br> (1 B-301) </br> ING</td>
+                                    <td class="lmsg" rowspan="2">LMSG</br> Pulli, Mo, FrJo </br> (1 B-301) </br> LMSG
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>9:10 </br> 10:05</th>
+                                    <td class="sisi" rowspan="2">SISI </br> Mart Ru, To </br> (1 B-301) </br> SISI</td>
+                                    <td class="ing">ING </br> Guti Sa, JoÁn </br> (1 B-301) </br> ING</td>
+                                    <td class="fol">FOL </br> Prud.Ga, Es </br> (1 B-301) </br> FOL</td>
+                                </tr>
+                                <tr>
+                                    <th>10:05 </br> 11:00</th>
+                                    <td class="prog">PROG </br> Mart Ca JoJa </br> (1 B-301) </br> PROG</td>
+                                    <td class="ende">ENDE </br> Polo Or, Ed </br> (1 B-301) </br> ENDE</td>
+                                    <td class="sisi">SISI </br> Mart Ru, To </br> (1 B-301) </br> SISI</td>
+                                    <td class="sisi">SISI </br> Mart Ru, To </br> (1 B-301) </br> SISI</td>
+                                </tr>
+                                <tr>
+                                    <td> </td>
+                                    <td class="recreo" colspan="6"><strong>recreo</strong></td>
+                                </tr>
+                                <tr>
+                                    <th>11:30 </br> 12:25 </th>
+                                    <td class="ende">ENDE </br> Polo Or, Ed </br> (1 B-301) </br> ENDE</td>
+                                    <td class="prog">PROG </br> Mart Ca JoJa </br> (1 B-301) </br> PROG</td>
+                                    <td class="prog" rowspan="2">PROG </br> Mart Ca JoJa </br> (1 B-301) </br> PROG</td>
+                                    <td class="sisi">SISI </br> Mart Ru, To </br> (1 B-301) </br> SISI</td>
+                                    <td class="sisi">SISI </br> Mart Ru, To </br> (1 B-301) </br> SISI</td>
+                                </tr>
+                                <tr>
+                                    <th>12:25 </br> 13:20 </th>
+                                    <td class="bdd" rowspan="2">BDD </br> Bern. Be, Cr </br> (1 B-301) </br> BDD</td>
+                                    <td class="bdd" rowspan="2">BDD </br> Bern. Be, Cr </br> (1 B-301) </br> BDD</td>
+                                    <td class="lmsg" rowspan="2">LMSG</br> Pulli, Mo, FrJo </br> (1 B-301) </br> LMSG
+                                    </td>
+                                    <td class="prog" rowspan="2">PROG </br> Mart Ca JoJa </br> (1 B-301) </br> PROG</td>
+                                </tr>
+                                <tr>
+                                    <th>13:20 </br> 14:15 </th>
+                                    <td class="fol">FOL </br> Prud.Ga, Es </br> (1 B-301) </br> FOL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="cb"></div>
+
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
