@@ -23,6 +23,7 @@ nav {
     float: left;
     padding: 0px;
     margin: 0px 100px;
+    margin-bottom: 15px;
 }
 footer {
     background-color: rgb(226, 134, 230);
@@ -196,12 +197,26 @@ dt{
     color: #fc0101;
     font-size: 20px;
 }
+#formuhtml5 fieldset{
+    background-color: rgb(184, 209, 209);
+}
+#formuhtml5 legend{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    text-align: left;
+    font-size: 20px;
+}
 #video{
     background-color: #e6a4c2;
     text-align: center;
+    font-family: cursive;
 }
 #audio{
-    text-align: left;
+    text-align: center;
+    font-family: cursive;
+    background-color: #9feca2;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 #formuhtml5{
     font-size: medium;

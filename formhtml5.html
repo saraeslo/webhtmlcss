@@ -51,23 +51,25 @@
             <div id="contenido">
                 <div id="formuhtml5">
                     <h1 class="titulo">Formulario HTML5</h1>
-                    <form action="recibo.php" method="get">
-                        <p>Email: <input type="email" name="email"></p>
-                        <p>URL: <input type="url" name="url"></p>
-                        <p>Teléfono: <input type="tel" name="telefono"></p>
-                        <p>Hora: <input type="time" name="hora"></p>
-                        <p>Fecha: <input type="date" name="fecha"></p>
-                        <p>Mes: <input type="month" name="mes"></p>
-                        <p>Semana: <input type="week" name="semana"></p>
-                        <p>Fecha y Hora: <input type="datetime-local" name="fechahora"></p>
-                        <p>Número: <input type="number" name="numero" step="2" min="10" max="30"></p>
-                        <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
-                                onchange="updateTextInput(this.value);" />
-                            <input type="text" id="textInput" value="">
-                        </p>
-                        <p>Color: <input type="color" name="color" id=""></p>
-                        <input type="submit" value="Enviar">
-
+                    <fieldset id="formuhtml5">
+                        <legend>Formulario Avanzado - HTML5</legend>
+                        <form action="recibo.php" method="get">
+                            <p>Email: <input type="email" name="email"></p>
+                            <p>URL: <input type="url" name="url"></p>
+                            <p>Teléfono: <input type="tel" name="telefono"></p>
+                            <p>Hora: <input type="time" name="hora"></p>
+                            <p>Fecha: <input type="date" name="fecha"></p>
+                            <p>Mes: <input type="month" name="mes"></p>
+                            <p>Semana: <input type="week" name="semana"></p>
+                            <p>Fecha y Hora: <input type="datetime-local" name="fechahora"></p>
+                            <p>Número: <input type="number" name="numero" step="2" min="10" max="30"></p>
+                            <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
+                                    onchange="updateTextInput(this.value);" />
+                                <input type="text" id="textInput" value="">
+                            </p>
+                            <p>Color: <input type="color" name="color" id=""></p>
+                            <input type="submit" value="Enviar">
+                    </fieldset>
                     </form>
                 </div>
             </div>
